@@ -94,30 +94,26 @@ feature/*
 
 # Tech Stack
 Language & Core
-
-🟣 Kotlin
-🔄 Coroutines
-🌊 Flow
+- MVI
+- Kotlin
+- Coroutines
+- Flow
 
 UI
-
-🎨 Jetpack Compose
-📐 Material 3
+- Jetpack Compose
+- Material 3
 
 Architecture
-
-🧩 Hilt
-🧠 ViewModel
-🏗 Clean Architecture (pragmatic)
+- Hilt
+- ViewModel
+- Clean Architecture
 
 Data
-
-💾 Room
-📜 Paging 3
-⚙️ DataStore
+- Room
+- Paging 3
+- DataStore
 
 Network
-
-🌐 Retrofit
-🔐 OkHttp
-🧩 Moshi
+- Retrofit
+- OkHttp
+- Moshi
