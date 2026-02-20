@@ -23,7 +23,6 @@ class GameRepositoryImpl @Inject constructor(
         }
     }
 
-
     override suspend fun updateGameDetails(gameId: Int): Result<Unit, DataError> {
         val roomId = localDataSource.getGameById(gameId).first().roomId
         return when (val details = remoteDataSource.fetchGameDetails(gameId, roomId)) {

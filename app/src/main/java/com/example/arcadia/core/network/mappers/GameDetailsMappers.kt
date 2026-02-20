@@ -1,4 +1,4 @@
-package com.example.arcadia.core.database.mappers
+package com.example.arcadia.core.network.mappers
 
 import com.example.arcadia.core.domain.model.GameDetails
 import com.example.arcadia.core.network.gamedetails.GameDetailsDto

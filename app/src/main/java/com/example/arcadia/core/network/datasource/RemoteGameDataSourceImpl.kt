@@ -1,14 +1,13 @@
 package com.example.arcadia.core.network.datasource
 
 import com.example.arcadia.core.data.safeApiCall
-import com.example.arcadia.core.database.mappers.toDomain
+import com.example.arcadia.core.network.mappers.toDomain
 import com.example.arcadia.core.domain.datasource.RemoteGameDataSource
 import com.example.arcadia.core.domain.model.Game
 import com.example.arcadia.core.domain.model.GameDetails
 import com.example.arcadia.core.domain.util.DataError
 import com.example.arcadia.core.domain.util.Result
 import com.example.arcadia.core.network.ArcadiaApi
-import com.example.arcadia.core.network.mappers.toDomain
 import javax.inject.Inject
 
 class RemoteGameDataSourceImpl @Inject constructor(

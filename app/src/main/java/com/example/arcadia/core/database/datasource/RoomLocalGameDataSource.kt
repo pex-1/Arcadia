@@ -5,6 +5,7 @@ import androidx.paging.ExperimentalPagingApi
 import com.example.arcadia.core.database.dao.GameDao
 import com.example.arcadia.core.database.entity.GameEntity
 import com.example.arcadia.core.database.mappers.toDomain
+import com.example.arcadia.core.network.mappers.toDomain
 import com.example.arcadia.core.database.mappers.toGameEntity
 import com.example.arcadia.core.domain.datasource.GameId
 import com.example.arcadia.core.domain.datasource.LocalGameDataSource

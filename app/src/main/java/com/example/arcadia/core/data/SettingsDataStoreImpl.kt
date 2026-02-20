@@ -35,5 +35,4 @@ class SettingsDataStoreImpl @Inject constructor(
             preferences[genreIdsKey] = ids.map { it.toString() }.toSet()
         }
     }
-
 }

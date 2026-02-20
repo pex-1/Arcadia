@@ -3,7 +3,7 @@ package com.example.arcadia.core.database.datasource
 import android.database.sqlite.SQLiteFullException
 import com.example.arcadia.core.database.dao.GenreDao
 import com.example.arcadia.core.database.entity.GenreEntity
-import com.example.arcadia.core.database.mappers.toDomain
+import com.example.arcadia.core.network.mappers.toDomain
 import com.example.arcadia.core.database.mappers.toGenreEntity
 import com.example.arcadia.core.domain.datasource.GenreId
 import com.example.arcadia.core.domain.datasource.LocalGenreDataSource

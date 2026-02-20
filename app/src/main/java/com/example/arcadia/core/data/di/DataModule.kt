@@ -47,7 +47,6 @@ abstract class DataSourceModule {
     @Binds @Singleton
     abstract fun bindGameRepository(impl: GameRepositoryImpl): GameRepository
 
-
     @Binds
     @Singleton
     abstract fun bindGamePagingRepository(impl: GamePagingRepositoryImpl): GamePagingRepository

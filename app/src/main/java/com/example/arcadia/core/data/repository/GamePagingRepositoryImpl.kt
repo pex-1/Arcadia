@@ -9,6 +9,7 @@ import com.example.arcadia.core.data.paging.GameRemoteMediator
 import com.example.arcadia.core.database.dao.GameDao
 import com.example.arcadia.core.database.entity.GameEntity
 import com.example.arcadia.core.database.mappers.toDomain
+import com.example.arcadia.core.network.mappers.toDomain
 import com.example.arcadia.core.database.util.DatabaseConstants
 import com.example.arcadia.core.domain.SettingsDataStore
 import com.example.arcadia.core.domain.datasource.LocalGameDataSource
